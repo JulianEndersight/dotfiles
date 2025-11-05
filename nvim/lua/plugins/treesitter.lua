@@ -5,9 +5,9 @@ return {
         lazy = false,
         build = ":TSUpdate",
         config = function()
-            require("treesitter.configs").setup {
+            require("treesitter.configs").setup({
 
-            }
+            })
         end,
     },
 }
