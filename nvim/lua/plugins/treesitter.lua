@@ -5,7 +5,7 @@ return {
         lazy = false,
         build = ":TSUpdate",
         config = function()
-            require("treesitter.configs").setup({
+            require("nvim-treesitter.configs").setup({
 
             })
         end,
